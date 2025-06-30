@@ -15,7 +15,6 @@ app.use(cors(corsOptions))
 
 const PORT = process.env.PORT || 4000
 
-// app
 app.use(express.json())
 app.use("/api", router)
 

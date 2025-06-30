@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function AboutUs() {
-  return (
+  return  (
     <div className='AboutUs' id='AboutUs'>
         <h1>About Us</h1>
         <div className="AboutSection">

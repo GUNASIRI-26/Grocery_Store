@@ -8,14 +8,11 @@ const express = require("express")
 
 const app = express();
 
-
-// Cors
 var corsOptions = {
     origin: process.env.ORIGIN,
 }
 app.use(cors(corsOptions))
 
-// Port 
 const PORT = process.env.PORT || 4000
 
 // app

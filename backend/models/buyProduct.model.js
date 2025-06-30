@@ -22,5 +22,5 @@ const buyProduct = new mongoose.Schema({
         required: true
     }
 })
-const BuyProduct = new mongoose.model("BuyProduct", buyProduct)
-module.exports = { BuyProduct }
+const BuyProduct  = new mongoose.model("BuyProduct", buyProduct)
+module.exports  = { BuyProduct }

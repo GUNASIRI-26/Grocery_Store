@@ -1,5 +1,5 @@
 Grocify
-Grocery Store
+ Digital Grocery Store
 
 ---
 **NOTE**
